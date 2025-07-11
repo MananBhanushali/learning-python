@@ -1,4 +1,4 @@
-# If Statements, Logical and Comparative Operators
+# If Statements, Logical and Comparative Operators in Java
 
 ## If, elif, and else 
 
