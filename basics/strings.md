@@ -246,6 +246,13 @@ If sep is given, consecutive delimiters are not grouped together and are deemed 
 >'Python'
 ```
 
+### len() Method and in Operator
+
+1. **len(str)** - Used to find length of str.
+2. **str_to_find in str** - Used to find if a given String is present in the target string, and returns boolean(True or False) accordingly.
+
+>[!NOTE]
+**len() and in are not limited to strings, they can also be used in other datatypes like lists, arrays etc.**
 
 ## References
 
