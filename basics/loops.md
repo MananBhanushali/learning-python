@@ -123,3 +123,52 @@ for n in range(2, 10):
 >9 equals 3 * 3
 
 ```
+
+## Break, continue and pass keyworda
+
+The break keyword is used to terminate(exit out of) a while/for loop
+
+```python
+secret_number = 9
+guess_limit = 3
+guess_count = 0
+
+while guess_count < guess_limit:
+    guess = int(input("Guess the number: "))
+    if guess == secret_number:
+        print("You won!")
+        break # exits out of the while loop, and hence ends the program
+    else: 
+        print("Try Again.")
+        guess_count+=1
+else: # After 3 Guesses
+    print("You have used all your guesses.")
+
+```
+
+The continue statement continues with the next iteration of the loop
+
+```python
+for num in range {2, 10}:
+    if num % 2 == 0:
+        print(f"Found an even number: {num}")
+        continue # goes to next iteration
+    print(f"Found an odd number: {num}") # won't run if number is even
+
+>Found an even number: 2
+>Found an odd number: 3
+>Found an even number: 4
+>Found an odd number: 5
+>Found an even number: 6
+>Found an odd number: 7
+>Found an even number: 8
+>Found an odd number: 9
+
+```
+
+The pass statement does nothing. It can be used when a statement is required syntactically but the program requires no action. For example:
+
+```python
+def func():
+    pass
+```Ad
