@@ -171,4 +171,4 @@ The pass statement does nothing. It can be used when a statement is required syn
 ```python
 def func():
     pass
-```Ad
+```
